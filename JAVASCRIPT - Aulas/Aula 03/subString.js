@@ -33,11 +33,10 @@ console.log('==============');
 
 
 
-let nomeN = 'Ren Kawoshin'
-let novoNome = nome.replace('Kawoshin', 'Zinho')
-console.log(nomeN);
-console.log(nomeNovo);
-console.log(nomeN);
 
-let nomeTrim = nome.trim()
-console.log(nomeTrim);
+
+let nomeC = "Ren Kawoshin";
+let partes = nomeC.split(" ");
+let novoNome = `${partes[1]} ${partes[0]}`
+console.log(novoNome); 
+
